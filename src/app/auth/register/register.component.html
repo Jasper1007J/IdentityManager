@@ -1,0 +1,6 @@
+<form (ngSubmit)="register()">
+  <input type="text" placeholder="Username" [(ngModel)]="username" [ngModelOptions]="{standalone:true}">
+  <input type="email" placeholder="Email" [(ngModel)]="email"  [ngModelOptions]="{standalone:true}">
+  <input type="password" placeholder="Password" [(ngModel)]="password" [ngModelOptions]="{standalone:true}">
+  <button type="submit" >Register</button>
+</form>
